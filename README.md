@@ -1,3 +1,13 @@
+## About this fork
+
+This is a development fork of [anchore/syft](https://github.com/anchore/syft), the CLI and Go library for generating software bills of materials from container images, filesystems, and archives. Its package inventory and CycloneDX, SPDX, and JSON outputs help developers understand and share the components included in software they build and maintain.
+
+Fork work is tracked in [upstream PR #5437](https://github.com/anchore/syft/pull/5437), proposing preservation of Alpine upstream URL references in CycloneDX SBOMs. It was open on 17 October 2026 and remains on the linked feature branch.
+
+Use the [official getting-started guide](https://oss.anchore.com/docs/guides/sbom/getting-started/) and [installation documentation](https://oss.anchore.com/docs/installation/syft/) to choose a workflow. [Compare the default branch with upstream](https://github.com/jdotc1/syft/compare/anchore:main...jdotc1:main). The original README retains supported targets, output formats, and project and logo licensing.
+
+---
+
 <p align="center">
     <img src="https://user-images.githubusercontent.com/5199289/136844524-1527b09f-c5cb-4aa9-be54-5aa92a6086c1.png" width="271" alt="Cute pink owl syft logo">
 </p>
